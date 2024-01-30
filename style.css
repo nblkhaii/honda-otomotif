@@ -1,0 +1,57 @@
+.corousel-slide {
+    $carousel-transition-duration:       .4s;
+}
+
+.card-bg {
+    background-color: darkgray;
+    opacity: 80%;
+}
+
+.carousel-control-next {
+    $carousel-control-color:             $black;
+}
+
+.card-spesifikasi {
+    width: 300px;
+    margin: 0 auto;
+    border: 1px;
+    padding: 20px;
+    background-color: lightgray;
+
+}
+
+.text-left {
+    text-align: left;
+}
+
+.carousel-inner {
+    background-color: rgb(139, 134, 134);
+}
+
+
+
+.row {
+    font-size: smaller;
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    margin: 0;
+}
+
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+  }
+  .vid {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
